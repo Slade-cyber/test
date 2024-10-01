@@ -1,0 +1,100 @@
+.wrapper {
+    width: 420px; /* Optional: limit the form width */
+    margin: 0 auto; /* Center the form */
+    padding: 30px 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .wrapper h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+    width: 100%; /* Make the input take full width */
+    height: 100;
+    padding: 10px;
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #fff;
+    border-radius: 40px;
+  }
+  
+  .icon {
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    transform: translateY(-50%);
+    color: #aaa;
+  }
+  
+  .terms-service {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    align-items: center;
+  }
+  
+  .terms-service label input{
+    accent-color: #fff;
+    margin-right: 4px;
+  }
+
+  .terms-service a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .terms-service a:hover {
+    text-decoration: underline;
+  }
+  button {
+    width: 100%; /* Make the button take full width */
+    height: 45px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700
+  }
+
+  button:hover {
+    background-color: #f0f0f0;
+    color: black;
+  }
+  
+ .wrapper .login-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  
+  .login-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .login-link p a:hover{
+    text-decoration: underline;
+  }
+  
